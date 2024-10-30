@@ -1,6 +1,7 @@
 package com.mosesposes.thedreaming;
 
 import com.mojang.logging.LogUtils;
+import com.mosesposes.thedreaming.item.ModItem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -44,6 +45,8 @@ public class TheDreaming
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModItem.regsiter(modEventBus);
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -59,6 +62,11 @@ public class TheDreaming
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItem.ALEXANDRITE);
+            event.accept(ModItem.RAW_ALEXANDRITE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
