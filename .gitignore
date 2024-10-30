@@ -28,3 +28,5 @@ replay_pid*
 .gradle
 .DS_Store
 build/
+
+run/
