@@ -1,6 +1,7 @@
 package com.mosesposes.thedreaming;
 
 import com.mojang.logging.LogUtils;
+import com.mosesposes.thedreaming.item.ModBlock;
 import com.mosesposes.thedreaming.item.ModItem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -46,6 +47,7 @@ public class TheDreaming
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItem.register(modEventBus);
+        ModBlock.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -70,6 +72,10 @@ public class TheDreaming
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItem.ALEXANDRITE);
             event.accept(ModItem.RAW_ALEXANDRITE);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlock.ALEXANDRITE_BLOCK);
         }
     }
 

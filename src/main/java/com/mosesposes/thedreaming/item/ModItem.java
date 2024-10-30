@@ -1,7 +1,6 @@
 package com.mosesposes.thedreaming.item;
 
 import com.mosesposes.thedreaming.TheDreaming;
-import net.minecraft.client.tutorial.Tutorial;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
