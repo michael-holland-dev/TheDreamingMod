@@ -1,6 +1,7 @@
 package com.mosesposes.thedreaming;
 
 import com.mojang.logging.LogUtils;
+import com.mosesposes.thedreaming.block.ModBlocks;
 import com.mosesposes.thedreaming.item.ModItem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -46,6 +47,7 @@ public class TheDreaming
         modEventBus.addListener(this::commonSetup);
 
         ModItem.regsiter(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -66,6 +68,12 @@ public class TheDreaming
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItem.ALEXANDRITE);
             event.accept(ModItem.RAW_ALEXANDRITE);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+
         }
     }
 

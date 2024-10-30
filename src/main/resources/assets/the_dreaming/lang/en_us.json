@@ -1,5 +1,6 @@
 {
   "item.the_dreaming.alexandrite" : "Alexandrite",
-  "item.the_dreaming.raw_alexandrite" : "Raw Alexandrite"
-
+  "item.the_dreaming.raw_alexandrite" : "Raw Alexandrite",
+  "block.the_dreaming.alexandrite_block": "Alexandrite Block",
+  "block.the_dreaming.raw_alexandrite_block" : "Raw Alexandrite Block"
 }
