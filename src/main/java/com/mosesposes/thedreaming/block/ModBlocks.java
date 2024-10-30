@@ -1,7 +1,7 @@
 package com.mosesposes.thedreaming.block;
 
 import com.mosesposes.thedreaming.TheDreaming;
-import com.mosesposes.thedreaming.item.ModItem;
+import com.mosesposes.thedreaming.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -28,7 +28,7 @@ public class ModBlocks {
   }
 
   public static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
-    ModItem.ITEMS.register(name, ()-> new BlockItem(block.get(), new Item.Properties()));
+    ModItems.ITEMS.register(name, ()-> new BlockItem(block.get(), new Item.Properties()));
   }
 
   public static void register(IEventBus eventBus) {
