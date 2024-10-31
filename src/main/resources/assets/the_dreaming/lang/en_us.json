@@ -1,12 +1,4 @@
 {
-<<<<<<< HEAD
-  "item.the_dreaming.alexandrite" : "Alexandrite",
-  "item.the_dreaming.raw_alexandrite" : "Raw Alexandrite",
-  "block.the_dreaming.alexandrite_block" : "Alexandrite Block",
-  "block.the_dreaming.raw_alexandrite_block" : "Raw Alexandrite Block",
-  "creativetab.the_dreaming.alexandrite_blocks" : "Alexandrite Blocks",
-  "creativetab.the_dreaming.alexandrite_items" : "Alexandrite Items"
-=======
   "item.the_dreaming.alexandrite": "Alexandrite Gem",
   "item.the_dreaming.raw_alexandrite": "Raw Alexandrite",
 
@@ -32,5 +24,4 @@
   "tooltip.the_dreaming.chisel": "Press §eShift§r for more Information!",
 
   "tooltip.the_dreaming.kohlrabi": "This tastes GREAT!"
->>>>>>> d2482c0 (Reset completely with working code from KaupenJoe. All the way to datagen)
 }

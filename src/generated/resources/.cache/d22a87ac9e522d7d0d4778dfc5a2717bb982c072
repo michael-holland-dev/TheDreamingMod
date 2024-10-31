@@ -1,4 +1,0 @@
-// 1.21.1	2024-10-31T11:49:40.816821	Tags for minecraft:block mod id the_dreaming
-ca2657d3d8c3aead5fe6a3235cae6932631529ca data/minecraft/tags/block/mineable/pickaxe.json
-a7326ecd638c77e345749513a452f8bbe8f189e2 data/minecraft/tags/block/needs_diamond_tool.json
-e71675ac16033fc22761f6ab2eff3d608f9555fb data/minecraft/tags/block/needs_iron_tool.json
