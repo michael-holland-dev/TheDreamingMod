@@ -1,8 +1,36 @@
 {
+<<<<<<< HEAD
   "item.the_dreaming.alexandrite" : "Alexandrite",
   "item.the_dreaming.raw_alexandrite" : "Raw Alexandrite",
   "block.the_dreaming.alexandrite_block" : "Alexandrite Block",
   "block.the_dreaming.raw_alexandrite_block" : "Raw Alexandrite Block",
   "creativetab.the_dreaming.alexandrite_blocks" : "Alexandrite Blocks",
   "creativetab.the_dreaming.alexandrite_items" : "Alexandrite Items"
+=======
+  "item.the_dreaming.alexandrite": "Alexandrite Gem",
+  "item.the_dreaming.raw_alexandrite": "Raw Alexandrite",
+
+  "item.the_dreaming.chisel": "Chisel",
+  "item.the_dreaming.kohlrabi": "Kohlrabi",
+  "item.the_dreaming.aurora_ashes": "Aurora Ashes",
+
+
+  "block.the_dreaming.alexandrite_block": "Block of Alexandrite",
+  "block.the_dreaming.raw_alexandrite_block": "Block of Raw Alexandrite",
+  "block.the_dreaming.alexandrite_ore": "Alexandrite Ore",
+  "block.the_dreaming.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+
+  "block.the_dreaming.magic_block": "Magic Block",
+
+
+  "creativetab.the_dreaming.alexandrite_items": "Alexandrite Items",
+  "creativetab.the_dreaming.alexandrite_blocks": "Alexandrite Blocks",
+
+  "tooltip.the_dreaming.magic_block.tooltip": "This Block is quite §9MAGICAL§r",
+
+  "tooltip.the_dreaming.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.the_dreaming.chisel": "Press §eShift§r for more Information!",
+
+  "tooltip.the_dreaming.kohlrabi": "This tastes GREAT!"
+>>>>>>> d2482c0 (Reset completely with working code from KaupenJoe. All the way to datagen)
 }
