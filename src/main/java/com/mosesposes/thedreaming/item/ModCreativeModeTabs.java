@@ -40,7 +40,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
 
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
-
+                        output.accept(ModBlocks.DREAMING_BED_BLOCK.get());
                     }).build());
 
 

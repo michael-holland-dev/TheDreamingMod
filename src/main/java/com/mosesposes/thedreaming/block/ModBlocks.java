@@ -1,6 +1,7 @@
 package com.mosesposes.thedreaming.block;
 
 import com.mosesposes.thedreaming.TheDreaming;
+import com.mosesposes.thedreaming.block.custom.DreamingBedBlock;
 import com.mosesposes.thedreaming.block.custom.MagicBlock;
 import com.mosesposes.thedreaming.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -38,6 +39,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()));
 
+    public static final RegistryObject<Block> DREAMING_BED_BLOCK = registerBlock("dreaming_bed_block",
+            () -> new DreamingBedBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -53,10 +53,9 @@ build
 
 # other
 eclipse
-run
-run-data
-src/generated
+run/
+run-data/
+src/generated/
 
 # Files from Forge MDK
 forge*changelog.txt
->>>>>>> d2482c0 (Reset completely with working code from KaupenJoe. All the way to datagen)
