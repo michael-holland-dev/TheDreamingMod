@@ -1,6 +1,7 @@
-package com.mosesposes.thedreaming.item;
+package com.mosesposes.thedreaming.block;
 
 import com.mosesposes.thedreaming.TheDreaming;
+import com.mosesposes.thedreaming.item.ModItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
