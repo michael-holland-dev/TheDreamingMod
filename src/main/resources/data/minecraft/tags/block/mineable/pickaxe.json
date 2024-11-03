@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "the_dreaming:alexandrite_block",
+    "the_dreaming:raw_alexandrite_block",
+    "the_dreaming:alexandrite_ore",
+    "the_dreaming:alexandrite_deepslate_ore"
+  ]
+}
