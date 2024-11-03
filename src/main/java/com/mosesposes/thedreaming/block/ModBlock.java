@@ -20,9 +20,9 @@ public class ModBlock {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
-//    public static RegistryObject<Block> ALEXANDRITE_ORE =
-//            registerBlock("alexandrite_ore", () -> new Block(BlockBehaviour.Properties.of()
-//                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static RegistryObject<Block> RAW_ALEXANDRITE_BLOCK =
+            registerBlock("raw_alexandrite_block", () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static void register(IEventBus event) {
         BLOCKS.register(event);
