@@ -1,7 +1,7 @@
-package com.mosesposes.thedreaming.item;
+package com.mosesposes.thedreaming;
 
-import com.mosesposes.thedreaming.TheDreaming;
 import com.mosesposes.thedreaming.block.ModBlock;
+import com.mosesposes.thedreaming.item.ModItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItem.ALEXANDRITE.get());
                         output.accept(ModItem.RAW_ALEXANDRITE.get());
+                        output.accept(ModItem.CHISEL.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexandrite_blocks_tab",
@@ -31,6 +32,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlock.RAW_ALEXANDRITE_BLOCK.get());
                         output.accept(ModBlock.ALEXANDRITE_ORE.get());
                         output.accept(ModBlock.ALEXANDRITE_DEEPSLATE_ORE.get());
+                        output.accept(ModBlock.MAGIC_BLOCK.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

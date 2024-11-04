@@ -1,6 +1,7 @@
 package com.mosesposes.thedreaming.block;
 
 import com.mosesposes.thedreaming.TheDreaming;
+import com.mosesposes.thedreaming.block.custom.MagicBlock;
 import com.mosesposes.thedreaming.item.ModItem;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -34,6 +35,9 @@ public class ModBlock {
     public static RegistryObject<Block> ALEXANDRITE_DEEPSLATE_ORE = registerBlock("alexandrite_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3,6), BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block", () -> new MagicBlock(
+            BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static void register(IEventBus event) {
         BLOCKS.register(event);

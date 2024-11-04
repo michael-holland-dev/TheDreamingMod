@@ -1,12 +1,16 @@
 {
   "item.the_dreaming.alexandrite": "Alexandrite Gem",
   "item.the_dreaming.raw_alexandrite": "Raw Alexandrite",
+  "item.the_dreaming.chisel": "Chisel",
+
 
   "block.the_dreaming.alexandrite_block": "Block of Alexandrite",
   "block.the_dreaming.raw_alexandrite_block": "Block of Raw Alexandrite",
 
   "block.the_dreaming.alexandrite_ore": "Alexandrite Ore",
   "block.the_dreaming.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+  "block.the_dreaming.magic_block": "Magic Block",
+
 
   "creativetab.tutorialmod.alexandrite_items": "Alexandrite Items",
   "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blocks"

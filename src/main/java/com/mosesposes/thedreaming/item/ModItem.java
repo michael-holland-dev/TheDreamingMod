@@ -1,6 +1,7 @@
 package com.mosesposes.thedreaming.item;
 
 import com.mosesposes.thedreaming.TheDreaming;
+import com.mosesposes.thedreaming.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,6 +17,10 @@ public class ModItem {
 
     public static RegistryObject<Item> RAW_ALEXANDRITE =
             ITEMS.register("raw_alexandrite", () -> new Item(new Item.Properties()));
+
+    public static RegistryObject<Item> CHISEL =
+            ITEMS.register("chisel", () -> new ChiselItem(
+                    new Item.Properties().durability(32)));
 
     public static void register(IEventBus event) {
         ITEMS.register(event);
